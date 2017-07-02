@@ -1,9 +1,9 @@
 # State Dance Project (powered by WSO2 Ballerina)
 
-The following project is desinged to make user tasks using Github issues for asynchronous service orchestrations.
+The following project is desinged to create **User Tasks** using Github issues for asynchronous service orchestrations.
 ![Architecture diagram](https://github.com/amalhub/state-dance/blob/master/resources/state-dance-diagram.png "Architecture diagram")
 ### How to run
-1. Download and deploye the /ballerina/ApprovalService.bal file in ballerina server.
+1. Download and deploy the **/ballerina/ApprovalService.bal** file in ballerina server.
    * Make sure to update the configurations.
        * **loanOfficer** - Github account user id
        * **git** - Github url

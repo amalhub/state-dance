@@ -20,3 +20,5 @@ The following project is desinged to create **User Tasks** using Github issues f
    * **Url:** https://<server.public.ip>:<ballerina.port>/loan/approve
    * **Content-type:** application/json
    * **payload:** {"amount": 100000, "customer": "wso2com@gmail.com"}
+### Source Overview
+![Souce overview](https://github.com/amalhub/state-dance/blob/master/resources/state-dance-diagram.png "Souce overview")

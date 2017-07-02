@@ -14,7 +14,13 @@ The following project is desinged to create **User Tasks** using Github issues f
        * **gmailID** - For Gmail connector
        
 2. Configure the callback url into github project webhook.
-   * https://<server.public.ip>:<ballerina.port>/loan/callback
+   * Goto https://github.com/{user}/{project}/settings/hooks
+   * Click on **Add new Webhook**
+   * Enter the callback url as the payload url
+      * https://{server.public.ip}:{ballerina.port}/loan/callback
+   * **Content-type:** application/json
+   * Under event triggers select option **"Let me select individual events"** and under that tick **"Issue comment"** option.
+   * Finally click on **Add Webhook** button.
    
 3. Send the loan request.
    * **Url:** https://<server.public.ip>:<ballerina.port>/loan/approve

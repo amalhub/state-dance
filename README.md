@@ -19,12 +19,12 @@ The following project is desinged to create **User Tasks** using Github issues f
    * Enter the callback url as the payload url
       * http://{server.public.ip}:{ballerina.port}/loan/callback
    * **Content-type:** application/json
-   * Under event triggers select option **"Let me select individual events"** and under that tick only **"Issue comment"** option.
+   * Under event triggers, select option **"Let me select individual events"** and then tick only **"Issue comment"** option.
    * Finally click on **Add Webhook** button.
    
 3. Send the loan request.
    * **Url:** http://{server.public.ip}:{ballerina.port}/loan/approve
    * **Content-type:** application/json
-   * **payload:** {"amount": 100000, "customer": "wso2com@gmail.com"}
+   * **payload:** {"amount": 100000, "customer": "amalg@wso2.com"}
 ### Source Overview
   * [Diagram](https://github.com/amalhub/state-dance/blob/master/resources/ApprovalService.svg)

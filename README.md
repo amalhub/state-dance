@@ -21,4 +21,4 @@ The following project is desinged to create **User Tasks** using Github issues f
    * **Content-type:** application/json
    * **payload:** {"amount": 100000, "customer": "wso2com@gmail.com"}
 ### Source Overview
-[Souce overview](https://github.com/amalhub/state-dance/blob/master/resources/ApprovalService.svg)
+  * [Diagram](https://github.com/amalhub/state-dance/blob/master/resources/ApprovalService.svg)

@@ -32,4 +32,4 @@ The project demonstrates a customer sending a loan approval request and Ballerin
   * [Diagram](https://github.com/amalhub/state-dance/blob/master/resources/ApprovalService.svg)
   
 ### Future enhancements
-  * If there are any data that needs to be persisted and correlated, using **ballerina.data.sql** we can persist data with an id and when the callback service triggers back with the id, we can retrieve the persisted data back. (Correlation)
+  * If there are any data that needs to be persisted and correlated, using **ballerina.data.sql** we can persist data with an id and when the callback service triggers back with the id, we can retrieve the persisted data back.

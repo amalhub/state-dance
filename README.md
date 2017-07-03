@@ -2,7 +2,7 @@
 
 The following project is desinged to create **User Tasks** in **Ballerina** using Github issues for asynchronous service orchestrations.
 ![Architecture diagram](https://github.com/amalhub/state-dance/blob/master/resources/state-dance-diagram.png "Architecture diagram")
-The project demonstrates a customer seningd a loan approval request, Ballerina will create a User task (git issue) in github assigning it to the loan officer for approval. Once the loan officer responds to the task, Github webhook will invoke the Bellerina call back service. Depending on the approval/disapproval, an email will get sent back to the respective customer. 
+The project demonstrates a customer sending a loan approval request and Ballerina will create a User task (git issue) in github assigning it to the loan officer for approval. Once the loan officer responds to the task, Github webhook will invoke the Bellerina callback service. Depending on the approval/disapproval, an email will get sent back to the respective customer. 
 
 ### How to run
 1. Download and deploy the **/ballerina/ApprovalService.bal** file in [Ballerina server](https://ballerinalang.org/).
